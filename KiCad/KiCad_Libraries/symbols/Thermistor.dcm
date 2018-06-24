@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1M_NTC_TH
+D NTC Thermistor 1M 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 100k_NTC_TH
+D NTC Thermistor 100k 0603 (1608 Metric)
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# TGS5141
+#
+DEF TGS5141 S 0 0 N Y 1 F N
+F0 "S" -50 250 50 H V C CNN
+F1 "TGS5141" 0 -250 50 H V C CNN
+F2 "Sensor:TGS5141" 25 200 60 H I L CNN
+F3 "http://www.figarosensor.com/products/docs/TGS%205141%280716%29.pdf" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Figaro" 25 600 60 H I L CNN "Manufacturer"
+F7 "TGS5141" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Figaro" 25 800 60 H I L CNN "Supplier"
+F9 "TGS5141" 25 900 60 H I L CNN "Supplier PN"
+F10 "http://www.figarosensor.com/feature/tgs5141.html" 25 1000 60 H I L CNN "Supplier Link"
+F11 "CO Sensor" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+C 0 0 180 0 1 0 N
+P 4 0 1 0 100 150 250 150 250 -150 100 -150 N
+X W 1 -250 0 71 R 50 50 1 1 P
+X C 2 300 -100 50 L 50 50 1 1 P
+X C 2 300 100 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

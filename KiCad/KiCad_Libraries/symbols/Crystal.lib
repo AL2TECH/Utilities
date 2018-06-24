@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+# ABS07-32.768KHZ
+#
+DEF ABS07-32.768KHZ XTAL 0 40 N N 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "ABS07-32.768KHZ" 0 -150 50 H V C CNN
+F2 "Crystal:ABS07-32.768KHZ-7-T" 25 200 60 H I L CNN
+F3 "http://www.abracon.com/Resonators/ABS07.pdf" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "20ppm" 25 500 60 H I L CNN "Tolerance"
+F6 "Abracon LLC" 25 600 60 H I L CNN "Manufacturer"
+F7 "ABS07-32.768KHZ-7-T" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "535-9543-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/products/en?keywords=535-9543-1-ND" 25 1000 60 H I L CNN "Supplier Link"
+F11 "32.768kHz ±20ppm Crystal 7pF 70 kOhms 2-SMD, No Lead" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

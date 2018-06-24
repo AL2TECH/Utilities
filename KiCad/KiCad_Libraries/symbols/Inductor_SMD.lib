@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 10uH_2.4A
+#
+DEF 10uH_2.4A L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "10uH_2.4A" 75 0 50 V V C CNN
+F2 "Inductor_SMD:L_Wurth_5030" 25 200 60 H I L CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/74437336100.pdf" 25 300 60 H I L CNN
+F4 "2.4A" 25 400 60 H I L CNN "Rating"
+F5 "20%" 25 500 60 H I L CNN "Tolerance"
+F6 "Wurth Electronics Inc." 25 600 60 H I L CNN "Manufacturer"
+F7 "74437336100" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "732-6170-6-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/74437336100/732-6170-6-ND/5050994" 25 1000 60 H I L CNN "Supplier Link"
+F11 "10µH Shielded Molded Inductor 2.4A 128 mOhm Max 2-SMD" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

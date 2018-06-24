@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABS07-32.768KHZ
+D 32.768kHz ±20ppm Crystal 7pF 70 kOhms 2-SMD, No Lead
+$ENDCMP
+#
+#End Doc Library

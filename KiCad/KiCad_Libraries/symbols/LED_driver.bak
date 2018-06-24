@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# TPS61169
+#
+DEF TPS61169 U 0 40 Y Y 1 F N
+F0 "U" 400 450 60 H V C CNN
+F1 "TPS61169" -250 450 60 H V C CNN
+F2 "SOT:TI_SC-70-5" 25 200 60 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps61169.pdf" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Texas Instruments" 25 600 60 H I L CNN "Manufacturer"
+F7 "TPS61169DCKR" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "296-40821-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/texas-instruments/TPS61169DCKR/296-40821-1-ND/5178698" 25 1000 60 H I L CNN "Supplier Link"
+F11 "LED Driver IC 1 Output DC DC Regulator Step-Up (Boost) PWM Dimming 1.8A (Switch) SC-70-5" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -450 400 450 -400 0 1 0 N
+X SW 1 550 250 98 L 50 50 1 1 w
+X GND 2 -550 -300 98 R 50 50 1 1 W
+X FB 3 550 -200 98 L 50 50 1 1 I
+X CTRL 4 -550 0 98 R 50 50 1 1 I
+X VIN 5 -550 250 98 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

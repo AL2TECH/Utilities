@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 1.5
+#
+DEF 1.5 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "1.5" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" 25 200 60 H I L CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 25 300 60 H I L CNN
+F4 "0.125W" 25 400 60 H I L CNN "Rating"
+F5 "1%" 25 500 60 H I L CNN "Tolerance"
+F6 "Yageo" 25 600 60 H I L CNN "Manufacturer"
+F7 "RC0805FR-071R5L" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "311-1.50CRTR-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071R5L/311-1.50CRTR-ND/727495" 25 1000 60 H I L CNN "Supplier Link"
+F11 "1.5 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

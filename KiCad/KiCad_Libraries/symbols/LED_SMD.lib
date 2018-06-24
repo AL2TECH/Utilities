@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LTST-C191KGKT
+#
+DEF LTST-C191KGKT D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LTST-C191KGKT" 0 -100 50 H V C CNN
+F2 "LED_SMD:LED_0603_1608Metric" 25 200 60 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF" 25 300 60 H I L CNN
+F4 "20mA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Lite-On Inc." 25 600 60 H I L CNN "Manufacturer"
+F7 "LTST-C191KGKT" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "160-1446-2-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-2-ND/386835" 25 1000 60 H I L CNN "Supplier Link"
+F11 "Green 571nm LED Indication - Discrete 2V 0603" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MLCAWT-A1-0000-000051
+#
+DEF MLCAWT-A1-0000-000051 D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MLCAWT-A1-0000-000051" 0 -100 50 H V C CNN
+F2 "LED_SMD:Cree_MLC" 25 200 60 H I L CNN
+F3 "https://www.mouser.it/datasheet/2/90/XLampMLC-19165.pdf" 25 300 60 H I L CNN
+F4 "300mW" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Cree Inc" 25 600 60 H I L CNN "Manufacturer"
+F7 "MLCAWT-A1-0000-000051" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Mouser" 25 800 60 H I L CNN "Supplier"
+F9 "941-MLCAWTA100000051" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www2.mouser.com/ProductDetail/Cree-Inc/MLCAWT-A1-0000-000051?qs=%2fha2pyFaduixVGhUxsGngeqgSBsxbO7OUlr5WRQo9g6GzIdyU0BQnFGyB5SlbI4a" 25 1000 60 H I L CNN "Supplier Link"
+F11 "High Power LEDs - White" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X A 1 150 0 100 L 50 50 1 1 P
+X K 2 -150 0 100 R 50 50 1 1 P
+X HS 3 0 -150 118 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

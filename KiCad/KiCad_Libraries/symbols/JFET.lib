@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# MMBFJ177LT1G
+#
+DEF MMBFJ177LT1G Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "MMBFJ177LT1G" 200 -50 50 H V L CNN
+F2 "SOT:SOT-23" 25 200 60 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MMBFJ177LT1-D.PDF" 25 300 60 H I L CNN
+F4 "30V, 225mW" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "ON Semiconductor" 25 600 60 H I L CNN "Manufacturer"
+F7 "MMBFJ177LT1G" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "MMBFJ177LT1GOSTR-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/on-semiconductor/MMBFJ177LT1G/MMBFJ177LT1GOSTR-ND/919589" 25 1000 60 H I L CNN "Supplier Link"
+F11 "JFET P-Channel 30V 225mW Surface Mount SOT-23-3 (TO-236)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+C 50 0 111 0 1 10 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 3 0 1 0 100 -100 100 -50 10 -50 N
+P 3 0 1 0 100 100 100 55 10 55 N
+P 4 0 1 0 -45 0 -5 15 -5 -15 -45 0 F
+X D 1 100 200 100 D 50 50 1 1 P
+X S 2 100 -200 100 U 50 50 1 1 P
+X G 3 -200 0 210 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

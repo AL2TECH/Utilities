@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BU1632SM-JJ-GTR
+#
+DEF BU1632SM-JJ-GTR J 0 10 N Y 1 F N
+F0 "J" -300 450 50 H V L CNN
+F1 "BU1632SM-JJ-GTR" -850 -400 50 H V L CNN
+F2 "Battery_Holder:BU1632SM_Battery_Holder" 25 200 60 H I L CNN
+F3 "https://www.digikey.com/products/en/battery-products/battery-holders-clips-contacts/86" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "MPD (Memory Protection Devices)" 25 600 60 H I L CNN "Manufacturer"
+F7 "BU1632SM-JJ-GTR" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "BU1632SM-JJ-GCT-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BU1632SM-JJ-GTR/BU1632SM-JJ-GCT-ND/2079910" 25 1000 60 H I L CNN "Supplier Link"
+F11 "1632 coin cell battery holder SMD" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+C 0 0 364 0 1 0 N
+X + 1 0 450 83 D 50 50 1 1 w
+X - 2 0 -450 83 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

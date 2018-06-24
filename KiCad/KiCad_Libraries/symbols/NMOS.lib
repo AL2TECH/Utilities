@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# DMN65D8L-7
+#
+DEF DMN65D8L-7 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "DMN65D8L-7" 200 0 50 H V L CNN
+F2 "SOT:SOT-23" 25 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMN65D8L.pdf" 25 300 60 H I L CNN
+F4 "60V, 310mA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Diodes Incorporated" 25 600 60 H I L CNN "Manufacturer"
+F7 "DMN65D8L-7" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "DMN65D8L-7DICT-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMN65D8L-7/DMN65D8L-7DICT-ND/3677916" 25 1000 60 H I L CNN "Supplier Link"
+F11 "N-Channel 60V 310mA (Ta) 370mW (Ta) Surface Mount SOT-23" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 0 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 200 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

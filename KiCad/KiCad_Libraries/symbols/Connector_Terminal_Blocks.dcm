@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PHEONIX_MPT_1725698
+D 6 Position Wire to Board Terminal Block Horizontal with Board 0.100" (2.54mm) Through Hole
+$ENDCMP
+#
+$CMP PHOENIX_MPT_1725656
+D 2 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole
+$ENDCMP
+#
+#End Doc Library

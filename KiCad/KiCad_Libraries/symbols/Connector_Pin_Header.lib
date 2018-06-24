@@ -1,0 +1,97 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# FTSH-105-01-F-DV-K
+#
+DEF FTSH-105-01-F-DV-K J 0 40 Y Y 1 F N
+F0 "J" -100 650 50 H V R CNN
+F1 "FTSH-105-01-F-DV-K" -100 550 50 H V R BNN
+F2 "Connector_Pin_Header:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" 25 200 60 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Samtec Inc." 25 600 60 H I L CNN "Manufacturer"
+F7 "FTSH-105-01-F-DV-K" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "SAM8796-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/samtec-inc/FTSH-105-01-F-DV-K/SAM8796-ND/2649974" 25 1000 60 H I L CNN "Supplier Link"
+F11 "10 Positions Header, Cuttable Connector 0.050 (1.27mm) Surface Mount Gold" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -400 500 400 -500 0 1 10 f
+S -110 -500 -90 -460 0 1 0 N
+S -10 -500 10 -460 0 1 0 N
+S -10 500 10 460 0 1 0 N
+S 360 90 400 110 0 1 0 N
+S 400 -110 360 -90 0 1 0 N
+S 400 -10 360 10 0 1 0 N
+S 400 310 360 290 0 1 0 N
+S 360 -210 400 -190 1 1 0 N
+X VCC 1 0 600 100 D 50 50 1 1 W
+X SWDIO/TMS 2 500 0 100 L 50 50 1 1 B
+X GND 3 0 -600 100 U 50 50 1 1 W
+X SWDCLK/TCK 4 500 100 100 L 50 50 1 1 O
+X GND 5 0 -600 100 U 50 50 1 1 P N
+X SWO/TDO 6 500 -100 100 L 50 50 1 1 I
+X KEY 7 -400 0 100 R 50 50 1 1 N N
+X NC/TDI 8 500 -200 100 L 50 50 1 1 O
+X GNDDetect 9 -100 -600 100 U 50 50 1 1 I
+X ~RESET~ 10 500 300 100 L 50 50 1 1 C
+ENDDRAW
+ENDDEF
+#
+# WURTH_61300411121
+#
+DEF WURTH_61300411121 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "WURTH_61300411121" 0 -300 50 H V C CNN
+F2 "Connector_Pin_Header:Pin_Header_Straight_1x04_Pitch2.54mm" 25 200 60 H I L CNN
+F3 "http://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 25 300 60 H I L CNN
+F4 "NA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Wurth Electronics Inc." 25 600 60 H I L CNN "Manufacturer"
+F7 "61300411121" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "732-5317-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300411121/732-5317-ND/4846827" 25 1000 60 H I L CNN "Supplier Link"
+F11 "4 Positions Header Connector 0.100 (2.54mm) Through Hole Gold" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WURTH_61300211121
+#
+DEF WURTH_61300211121 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "WURTH_61300211121" 0 -200 50 H V C CNN
+F2 "Connector_Pin_Header:Pin_Header_Straight_1x02_Pitch2.54mm" 25 200 60 H I L CNN
+F3 "http://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 25 300 60 H I L CNN
+F4 "3A, 250V" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Wurth Electronics Inc." 25 600 60 H I L CNN "Manufacturer"
+F7 "61300211121" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "732-5315-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=&pkeyword=&pv88=2&FV=ffe0013a%2Cfffc02dc%2C1680001%2C8000010%2C1bf80001%2C1f700012%2C1f880152%2C1f9800e8%2C1fa40058&quantity=0&ColumnSort=0&page=1&pageSize=25" 25 1000 60 H I L CNN "Supplier Link"
+F11 "2 Positions Header Connector 0.100 (2.54mm) Through Hole Gold" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

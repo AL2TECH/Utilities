@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BQ24210
+#
+DEF BQ24210 U 0 40 Y Y 1 F N
+F0 "U" -450 500 60 H V C CNN
+F1 "BQ24210" -300 400 60 H V C CNN
+F2 "WSON:WSON-10-1EP_2x3mm_Pitch0.5mm_ThermalVias" 25 200 60 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/bq24210.pdf" 25 300 60 H I L CNN
+F4 "7V" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Texas Instrument" 25 600 60 H I L CNN "Manufacturer"
+F7 "BQ24210DQCT" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "296-28738-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/texas-instruments/BQ24210DQCT/296-28738-1-ND/2657679" 25 1000 60 H I L CNN "Supplier Link"
+F11 "Charger IC Lithium-Ion 10-WSON (3x2)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -500 300 200 -650 0 1 0 f
+X VBUS 1 -700 250 200 R 50 50 1 1 I
+X ISET 2 -250 -850 200 U 50 50 1 1 I
+X VSS 3 -150 -850 200 U 50 50 1 1 I
+X VTSB 4 400 -150 200 L 50 50 1 1 I
+X TS 5 400 -500 200 L 50 50 1 1 I
+X ~PG 6 400 -50 200 L 50 50 1 1 I
+X ~EN 7 -700 -100 200 R 50 50 1 1 I
+X ~CHG 8 400 50 200 L 50 50 1 1 I
+X VDPM 9 -350 -850 200 U 50 50 1 1 I
+X BAT 10 400 250 200 L 50 50 1 1 B
+X GND-PAD 11 -50 -850 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

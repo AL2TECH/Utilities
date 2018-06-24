@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBR120VLSFT1G
+D Diode Schottky 20V 1A Surface Mount SOD-123FL
+$ENDCMP
+#
+$CMP MBR0580S1-7
+D Diode Schottky 80V 500mA Surface Mount SOD-123
+$ENDCMP
+#
+#End Doc Library

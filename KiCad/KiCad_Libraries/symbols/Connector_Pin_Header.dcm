@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FTSH-105-01-F-DV-K
+D 10 Positions Header, Cuttable Connector 0.050" (1.27mm) Surface Mount Gold
+$ENDCMP
+#
+$CMP WURTH_61300411121
+D 4 Positions Header Connector 0.100" (2.54mm) Through Hole Gold
+$ENDCMP
+#
+$CMP WURTH_61300211121
+D 2 Positions Header Connector 0.100" (2.54mm) Through Hole Gold
+$ENDCMP
+#
+#End Doc Library

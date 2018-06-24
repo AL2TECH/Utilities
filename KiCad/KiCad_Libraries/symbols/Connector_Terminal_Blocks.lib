@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PHEONIX_MPT_1725698
+#
+DEF PHEONIX_MPT_1725698 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "PHEONIX_MPT_1725698" 0 -400 50 H V C CNN
+F2 "Connector_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_6pol" 25 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725698.pdf" 25 300 60 H I L CNN
+F4 "125V, 6A" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Phoenix Contact" 25 600 60 H I L CNN "Manufacturer"
+F7 "1725698" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "277-1277-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/phoenix-contact/1725698/277-1277-ND/267466" 25 1000 60 H I L CNN "Supplier Link"
+F11 "6 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PHOENIX_MPT_1725656
+#
+DEF PHOENIX_MPT_1725656 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "PHOENIX_MPT_1725656" 0 -200 50 H V C CNN
+F2 "Connector_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" 25 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1725656.pdf" 25 300 60 H I L CNN
+F4 "6A, 125V" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Phoenix Contact" 25 600 60 H I L CNN "Manufacturer"
+F7 "1725656" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "277-1273-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/phoenix-contact/1725656/277-1273-ND/267462" 25 1000 60 H I L CNN "Supplier Link"
+F11 "2 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

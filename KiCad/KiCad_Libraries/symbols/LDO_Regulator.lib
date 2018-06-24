@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# MAX1725
+#
+DEF MAX1725 U 0 40 Y Y 1 F N
+F0 "U" -350 350 60 H V C CNN
+F1 "MAX1725" -200 450 60 H V C CNN
+F2 "SOT:SOT-23-5" 25 200 60 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX1725-MAX1726.pdf" 25 300 60 H I L CNN
+F4 "12V" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Maxim Integrated" 25 600 60 H I L CNN "Manufacturer"
+F7 "MAX1725EUK+T" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "MAX1725EUK+TCT-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/maxim-integrated/MAX1725EUK-T/MAX1725EUK-TCT-ND/2699452" 25 1000 60 H I L CNN "Supplier Link"
+F11 "Linear Voltage Regulator IC Positive Adjustable 1 Output 1.5 V ~ 5 V 20mA SOT-23-5" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -400 300 450 -300 0 1 0 f
+X IN 1 -600 200 200 R 50 50 1 1 W
+X GND 2 -600 -250 200 R 50 50 1 1 W
+X OUT 3 650 200 200 L 50 50 1 1 w
+X FB 4 650 -150 200 L 50 50 1 1 I
+X ~SHDN 5 -600 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

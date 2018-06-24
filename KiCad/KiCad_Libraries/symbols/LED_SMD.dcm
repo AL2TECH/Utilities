@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTST-C191KGKT
+D Green 571nm LED Indication - Discrete 2V 0603
+$ENDCMP
+#
+$CMP MLCAWT-A1-0000-000051
+D High Power LEDs - White
+$ENDCMP
+#
+#End Doc Library
