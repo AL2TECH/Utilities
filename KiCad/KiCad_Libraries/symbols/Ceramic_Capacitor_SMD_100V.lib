@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 0.1uF
+#
+DEF 0.1uF R 0 10 N Y 1 F N
+F0 "R" 25 100 50 H V L CNN
+F1 "0.1uF" 25 -100 50 H V L CNN
+F2 "Ceramic_Capacitor_SMD:C_0805_2012Metric" 25 200 60 H I L CNN
+F3 "http://psearch.en.murata.com/capacitor/product/GCM21BR72A104KA37%23.pdf" 25 300 60 H I L CNN
+F4 "100V" 25 400 60 H I L CNN "Rating"
+F5 "10%" 25 500 60 H I L CNN "Tolerance"
+F6 "Murata Electronics North America" 25 600 60 H I L CNN "Manufacturer"
+F7 "GCM21BR72A104KA37L" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "490-4789-2-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37L/490-4789-2-ND/1641663" 25 1000 60 H I L CNN "Supplier Link"
+F11 "0.1µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

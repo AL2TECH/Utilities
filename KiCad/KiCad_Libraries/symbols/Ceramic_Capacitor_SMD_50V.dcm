@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+#
+$CMP 1000pF
+D 	 1000pF Â±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 10pF
+D 	 10pF Â±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 100pF
+D 	 100pF Â±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 22pF
+D 	 22pF Â±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 6pF
+D 6pF ±0.5pF 50V Ceramic Capacitor C0G, NP0 0402
+$ENDCMP
+#
+$CMP 4.7uF
+D 4.7µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)
+$ENDCMP
+#
+#End Doc Library

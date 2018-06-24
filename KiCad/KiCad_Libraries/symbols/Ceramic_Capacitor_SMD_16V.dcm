@@ -1,0 +1,24 @@
+EESchema-DOCLIB  Version 2.0
+#
+#
+$CMP 0.1uF
+D 	0.1uF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 4.7uF
+D 	 4.7uF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 1uF
+D 	 1uF ±20% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 10000pF
+D 	 10000pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP 10uF
+D 10�F �10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)
+$ENDCMP
+#
+#End Doc Library

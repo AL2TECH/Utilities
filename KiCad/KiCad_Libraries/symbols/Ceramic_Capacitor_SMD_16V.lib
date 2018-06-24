@@ -1,0 +1,124 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 0.1uF
+#
+DEF 0.1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "0.1uF" 25 -100 50 H V L CNN
+F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C104KA01-01.pdf" 25 300 60 H I L CNN
+F4 "16V" 25 400 60 H I L CNN "Rating"
+F5 "10% X7R " 25 500 60 H I L CNN "Tolerance"
+F6 "Murata Electronics North America" 25 600 60 H I L CNN "Manufacturer"
+F7 "GRM188R71C104KA01D" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "490-1532-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71C104KA01D/490-1532-1-ND/587771" 25 1000 60 H I L CNN "Supplier Link"
+F11 "0.1µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7uF
+#
+DEF 4.7uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "4.7uF" 25 -100 50 H V L CNN
+F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
+F3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL10A475KO8NNNC.pdf" 25 300 60 H I L CNN
+F4 "16V" 25 400 60 H I L CNN "Rating"
+F5 "10% X5R" 25 500 60 H I L CNN "Tolerance"
+F6 "Samsung Electro-Mechanics" 25 600 60 H I L CNN "Manufacturer"
+F7 "CL10A475KO8NNNC" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "1276-1784-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10A475KO8NNNC/1276-1784-1-ND/3889870" 25 1000 60 H I L CNN "Supplier Link"
+F11 "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1uF
+#
+DEF 1uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "1uF" 25 -100 50 H V L CNN
+F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105MA12-01.pdf" 25 300 60 H I L CNN
+F4 "16V" 25 400 60 H I L CNN "Rating"
+F5 "20% X7R " 25 500 60 H I L CNN "Tolerance"
+F6 "Murata Electronics North America" 25 600 60 H I L CNN "Manufacturer"
+F7 "GRM188R71C105MA12D" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "490-6424-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71C105MA12D/490-6424-1-ND/3845621" 25 1000 60 H I L CNN "Supplier Link"
+F11 "1uF ±20% 16V Ceramic Capacitor X7R 0603 (1608 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10000pF
+#
+DEF 10000pF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "10000pF" 25 -100 50 H V L CNN
+F2 "Ceramic_Capacitor_SMD:C_0603_1608Metric" 25 200 60 H I L CNN
+F3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C103KA01-01.pdf" 25 300 60 H I L CNN
+F4 "16V" 25 400 60 H I L CNN "Rating"
+F5 "10% X7R " 25 500 60 H I L CNN "Tolerance"
+F6 "Murata Electronics North America" 25 600 60 H I L CNN "Manufacturer"
+F7 "GRM188R71C103KA01D" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "490-1525-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R71C103KA01D/490-1525-1-ND/587869" 25 1000 60 H I L CNN "Supplier Link"
+F11 "10000pF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10uF
+#
+DEF 10uF C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "10uF" 25 -100 50 H V L CNN
+F2 "Ceramic_Capacitor_SMD:C_1206_3216Metric" 25 200 60 H I L CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B106KOHZW6E.jsp" 25 300 60 H I L CNN
+F4 "16V" 25 400 60 H I L CNN "Rating"
+F5 "10% X7R" 25 500 60 H I L CNN "Tolerance"
+F6 "Samsung Electro-Mechanics" 25 600 60 H I L CNN "Manufacturer"
+F7 "CL31B106KOHZW6E" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "1276-7032-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL31B106KOHZW6E/1276-7032-1-ND/7320674" 25 1000 60 H I L CNN "Supplier Link"
+F11 "10�F �10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
