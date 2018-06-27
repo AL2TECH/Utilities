@@ -24,4 +24,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 0
+#
+DEF 0 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "0" 0 0 50 V V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric" 25 200 60 H I L CNN
+F3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW" 25 300 60 H I L CNN
+F4 "0.125W" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Panasonic Electronic Component" 25 600 60 H I L CNN "Manufacturer"
+F7 "ERJ-6GEY0R00V" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "P0.0ACT-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6GEY0R00V/P0.0ACT-ND/82955" 25 1000 60 H I L CNN "Supplier Link"
+F11 "0 Ohms Jumper 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

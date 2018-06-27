@@ -22,7 +22,7 @@ class Symbol(object):
     source_file = None
 
     lib_end = '#End Library\n'
-    lib_header = [ 'EESchema-LIBRARY Version 2.3\n',
+    lib_header = [ 'EESchema-LIBRARY Version 2.4\n',
                        '#encoding utf-8\n',
                        '#\n',
                        lib_end]

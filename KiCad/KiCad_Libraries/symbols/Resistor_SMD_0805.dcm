@@ -4,4 +4,8 @@ $CMP 1.5
 D 1.5 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film
 $ENDCMP
 #
+$CMP 0
+D 0 Ohms Jumper 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
 #End Doc Library
