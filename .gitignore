@@ -2,4 +2,5 @@
 *.bck
 *.project
 *.pydevproject
+KiCad/KiCad_Symbol_Generator/__pycache__
 
