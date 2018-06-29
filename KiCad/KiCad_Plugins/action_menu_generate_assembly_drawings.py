@@ -33,12 +33,14 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 		
 	# Set some important plot options:
 	popt.SetPlotFrameRef(True)
-	popt.SetLineWidth(pcbnew.FromMM(0.35))
+	popt.SetLineWidth(pcbnew.FromMM(0.1))
 		
-	popt.SetAutoScale(True)
-	#popt.SetScale(1)
+	popt.SetAutoScale(False)
+	popt.SetScale(1)
 	popt.SetMirror(False)
 	popt.SetExcludeEdgeLayer(False)
+	popt.SetPlotValue(False)
+	popt.SetPlotReference(True)
         
 	#Create a pdf file of the top silk layer
 	pctl.SetLayer(pcbnew.F_Fab)
