@@ -4,5 +4,4 @@
 *.pydevproject
 KiCad/KiCad_Symbol_Generator/__pycache__/*
 KiCad/KiCad_BOM_Generator/kicad_netlist_reader.pyc
-
-
+/KiCad/KiCad_Symbol_Generator/__pycache__
