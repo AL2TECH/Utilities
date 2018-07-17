@@ -57,7 +57,8 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 		
 		pctl.ClosePlot()
 		
-		file = open('%s/position.csv' % pcb_path, 'w')
+		#generate xy positions files
+		file = open('%s/Outputs/Assembly/position.csv' % pcb_path, 'w')
 		writer = csv.writer(file, dialect='excel')
 		
 		for m in pcbnew.GetBoard().GetModules():
