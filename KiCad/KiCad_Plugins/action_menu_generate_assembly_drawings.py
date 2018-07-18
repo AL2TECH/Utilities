@@ -57,13 +57,42 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 		
 		pctl.ClosePlot()
 		
-		#generate xy positions files
-		file = open('%s/Outputs/Assembly/position.csv' % pcb_path, 'w')
-		writer = csv.writer(file, dialect='excel')
+		#generate xy positions TOP files
+		file = open('%s/Outputs/Assembly/components_position_TOP.csv' % pcb_path, 'w')
+		writer = csv.writer( file, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
 		
-		for m in pcbnew.GetBoard().GetModules():
-			c = m.GetCenter()
-			writer.writerow((m.GetReference(), c.x, c.y))
+		board_aux_origin = pcb.GetAuxOrigin()
+		modules_list = pcb.GetModules()
+		
+		writer.writerow(("Reference", "Package", "X Position (mm)", "Y Position (mm)", "Rotation (Degrees)", "Side"))
+		
+		for m in modules_list:
+			if(m.GetLayer()==0 and m.GetAttributes()!=2):
+				c = m.GetCenter()
+				if(m.GetAttributes()==0):
+					package = "TH"
+				else:
+					package = "SMD"
+				writer.writerow((m.GetReference(), package, (c.x - board_aux_origin.x)/1000000.0, (board_aux_origin.y - c.y)/1000000.0, m.GetOrientationDegrees(), "top"))
+		file.close()
+		
+		#generate xy positions BOTTOM files
+		file = open('%s/Outputs/Assembly/components_position_BOTTOM.csv' % pcb_path, 'w')
+		writer = csv.writer( file, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
+		
+		board_aux_origin = pcb.GetAuxOrigin()
+		modules_list = pcb.GetModules()
+		
+		writer.writerow(("Reference", "Package", "X Position (mm)", "Y Position (mm)", "Rotation (Degrees)", "Side"))
+		
+		for m in modules_list:
+			if(m.GetLayer()==31 and m.GetAttributes()!=2):
+				c = m.GetCenter()
+				if(m.GetAttributes()==0):
+					package = "TH"
+				else:
+					package = "SMD"
+				writer.writerow((m.GetReference(), package, (c.x - board_aux_origin.x)/1000000.0, (board_aux_origin.y - c.y)/1000000.0, m.GetOrientationDegrees(), "bottom"))
 		file.close()
 
 
