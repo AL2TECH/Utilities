@@ -26,6 +26,12 @@ class generate_drill_files( pcbnew.ActionPlugin ):
     def Run( self ):
 		pcb = pcbnew.GetBoard()
 		drill_path = os.path.dirname(pcb.GetFileName()) + "/Outputs/Plots/"
+		if not os.path.exists(drill_path):
+			os.makedirs(drill_path)
+			
+		report_path = os.path.dirname(pcb.GetFileName()) + "/Outputs/Reports/"
+		if not os.path.exists(report_path):
+			os.makedirs(report_path)
 			
 		pctl = pcbnew.PLOT_CONTROLLER(pcb)
 			
@@ -69,8 +75,8 @@ class generate_drill_files( pcbnew.ActionPlugin ):
 		drlwriter.CreateDrillandMapFilesSet( drill_path, genDrl, genMap )
 		
 		# One can create a text file to report drill statistics
-		#rptfn = pctl.GetPlotDirName() + 'drill_report.rpt'
-		#drlwriter.GenDrillReportFile( rptfn );
+		rptfn = report_path + 'drill_report.rpt'
+		drlwriter.GenDrillReportFile( rptfn );
 		pctl.ClosePlot()
 	
 generate_drill_files().register()

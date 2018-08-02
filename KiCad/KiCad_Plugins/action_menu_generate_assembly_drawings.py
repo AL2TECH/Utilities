@@ -50,6 +50,7 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 		pctl.OpenPlotfile("Assembly_TOP", pcbnew.PLOT_FORMAT_PDF, "Assembly_TOP")
 		pctl.PlotLayer()
 		
+		popt.SetMirror(True)
 		#Create a pdf file of the bottom fab Layer
 		pctl.SetLayer(pcbnew.B_Fab)
 		pctl.OpenPlotfile("Assembly_BOTTOM", pcbnew.PLOT_FORMAT_PDF, "Assembly_BOTTOM")

@@ -1,9 +1,9 @@
-(module Fiducial (layer F.Cu) (tedit 5AA135B2)
+(module Fiducial (layer F.Cu) (tedit 5B51F187)
   (descr "Circular Fiducial, 0.5mm bare copper bottom; 2.54mm keepout")
   (tags marker)
   (attr virtual)
-  (fp_text reference REF** (at 3.4 0.7) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text reference REF** (at 0.01 -0.02) (layer F.Fab)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (fp_text value Fiducial (at 0 -1.8) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
