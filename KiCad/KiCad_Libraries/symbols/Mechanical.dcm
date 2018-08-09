@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MountigHole_M2
+D NA
+$ENDCMP
+#
+$CMP MountingHole_M3
+D NA
+$ENDCMP
+#
+#End Doc Library
