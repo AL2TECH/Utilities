@@ -33,25 +33,28 @@ class add_fiducials( pcbnew.ActionPlugin ):
 		pcb = pcbnew.GetBoard()
 		io = pcbnew.PCB_IO()
 		
-		offset = pcbnew.wxPoint(GAP,GAP)
-		point = pcb.GetAuxOrigin()
-		#point.y = point.y + offset.y
+		
+		origin = pcb.GetAuxOrigin()
+		center = pcbnew.wxPoint(origin.x,(origin.y + GAP))
+		offset = pcbnew.wxPoint(0,GAP)
 		
 		for fid in TOP_FID:	
 			mod = io.FootprintLoad(fiducial_lib, "Fiducial")
-
-			mod.SetPosition(point)
+			mod.SetPosition(center)
 			mod.SetReference(fid)
 			pcb.Add(mod)
-			point.x = point.x + offset.x
+			center = center + offset
 			
+		center = pcbnew.wxPoint((origin.x + GAP),(origin.y + GAP))
+		offset = pcbnew.wxPoint(0,GAP)
 		
-		#for fid in BOT_FID:	
-		#	mod = io.FootprintLoad(fiducial_lib, "Fiducial")
-		#	mod.SetPosition(pcb.GetAuxOrigin() + offset)
-		#	mod.Flip(pcb.GetAuxOrigin())
-		#	mod.SetReference(fid)
-		#	pcb.Add(mod)
+		for fid in BOT_FID:	
+			mod = io.FootprintLoad(fiducial_lib, "Fiducial")
+			mod.SetPosition(center)
+			mod.Flip(center)
+			mod.SetReference(fid)
+			pcb.Add(mod)
+			center = center + offset
 		
 		
 		
