@@ -33,6 +33,9 @@ class generate_gerbers( pcbnew.ActionPlugin ):
 		popt = pctl.GetPlotOptions()
 			
 		popt.SetOutputDirectory("Outputs/Plots/")
+		
+		#prepare the gerber job file
+		jobfile_writer = pcbnew.GERBER_JOBFILE_WRITER(pcb)
 			
 		# Set some important plot options:
 		popt.SetPlotFrameRef(False)
@@ -84,6 +87,7 @@ class generate_gerbers( pcbnew.ActionPlugin ):
 			pctl.SetLayer(layer_info[1])
 			pctl.OpenPlotfile(layer_info[0], pcbnew.PLOT_FORMAT_GERBER, layer_info[2])
 			pctl.PlotLayer()
+			jobfile_writer.AddGbrFile( layer_info[1], os.path.basename(pctl.GetPlotFileName()) );
 		
 		#generate internal copper layers, if any
 		lyrcnt = pcb.GetCopperLayerCount();
@@ -94,8 +98,13 @@ class generate_gerbers( pcbnew.ActionPlugin ):
 			lyrname = 'INTERNAL_%s' % innerlyr
 			pctl.OpenPlotfile(lyrname, pcbnew.PLOT_FORMAT_GERBER, "inner")
 			pctl.PlotLayer()
+			jobfile_writer.AddGbrFile( innerlyr, os.path.basename(pctl.GetPlotFileName()) );
 
-
+ 
+		job_fn= pcb_path + '/Outputs/Plots/' + os.path.splitext(os.path.basename(pcb.GetFileName()))[0] +'.gbrjob'
+		print 'create job file %s' % job_fn
+		jobfile_writer.CreateJobFile( job_fn )
+	
 		# At the end you have to close the last plot, otherwise you don't know when
 		# the object will be recycled!
 		pctl.ClosePlot()
