@@ -32,7 +32,7 @@ class generate_gerbers( pcbnew.ActionPlugin ):
 			
 		popt = pctl.GetPlotOptions()
 			
-		popt.SetOutputDirectory("Outputs/Plots/")
+		popt.SetOutputDirectory("Outputs/PCB_Manufacturing/Gerbers/")
 		
 		#prepare the gerber job file
 		jobfile_writer = pcbnew.GERBER_JOBFILE_WRITER(pcb)
@@ -101,7 +101,7 @@ class generate_gerbers( pcbnew.ActionPlugin ):
 			jobfile_writer.AddGbrFile( innerlyr, os.path.basename(pctl.GetPlotFileName()) );
 
  
-		job_fn= pcb_path + '/Outputs/Plots/' + os.path.splitext(os.path.basename(pcb.GetFileName()))[0] +'.gbrjob'
+		job_fn= pcb_path + '/Outputs/PCB_Manufacturing/Gerbers/' + os.path.splitext(os.path.basename(pcb.GetFileName()))[0] +'.gbrjob'
 		print 'create job file %s' % job_fn
 		jobfile_writer.CreateJobFile( job_fn )
 	

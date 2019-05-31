@@ -17,7 +17,7 @@ class MainApplication(Frame):
     NEW_LIB_WID_HEIGHT = 510
     ACTION_WID_HEIGHT = 100
     
-    REF_OPTIONS = ['','A','AT','BR','BT','C','CN','D','DL',
+    REF_OPTIONS = ['','A','AT', 'BAT', 'BR','BT','C','CN','D','DL',
                    'DS','F','FB','FD','FL','G','GN','H',
                    'HY','J','JP','K','L','LS','M','MK','MP', 'MOD',
                    'P','PS','Q','R','RN','RT','RV','S','T','TC', 'TH',

@@ -4,6 +4,14 @@ $CMP LTST-C191KGKT
 D Green 571nm LED Indication - Discrete 2V 0603
 $ENDCMP
 #
+$CMP LTST-S270KGKT
+D Green 571nm LED Indication- Side Mounted - Discrete 2V 0603 (1608 Metric)
+$ENDCMP
+#
+$CMP LTST-S270KRKT
+D Red 631nm LED Indication - Side Mounted - Discrete 2V 0603 (1608 Metric)
+$ENDCMP
+#
 $CMP MLCAWT-A1-0000-000051
 D High Power LEDs - White
 $ENDCMP

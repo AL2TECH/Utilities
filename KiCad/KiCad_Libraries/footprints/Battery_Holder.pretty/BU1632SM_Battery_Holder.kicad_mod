@@ -1,4 +1,4 @@
-(module BU1632SM_Battery_Holder (layer F.Cu) (tedit 5A7A181C)
+(module BU1632SM_Battery_Holder (layer F.Cu) (tedit 5CEEA455)
   (fp_text reference REF** (at -10.1 -7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -24,7 +24,7 @@
   (fp_line (start -7.6 3.5) (end -13.8 3.5) (layer F.Fab) (width 0.3))
   (pad 1 smd rect (at -13 0) (size 3.5 4.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 13 0) (size 3.5 4.5) (layers F.Cu F.Paste F.Mask))
-  (model Battery_Holder.3dshapes/BU-1632SM^BU-1632SM-JJ-G-1_sp.wrl
+  (model ${KISYS3DMOD}/Battery_Holder.3dshapes/BU-1632SM^BU-1632SM-JJ-G-1_sp.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

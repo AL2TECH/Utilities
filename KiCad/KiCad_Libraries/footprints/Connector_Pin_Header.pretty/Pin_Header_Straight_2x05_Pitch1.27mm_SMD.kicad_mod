@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_2x05_Pitch1.27mm_SMD (layer F.Cu) (tedit 5AFEE71A)
+(module Pin_Header_Straight_2x05_Pitch1.27mm_SMD (layer F.Cu) (tedit 5CEEA549)
   (descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
   (tags "Surface mounted pin header SMD 2x05 1.27mm double row")
   (attr smd)
@@ -70,7 +70,7 @@
   (pad 8 smd rect (at 1.95 1.27) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at -1.95 2.54) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 1.95 2.54) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
-  (model "../../../../../../Users/andrea.longobardi/OneDrive - maximintegrated.onmicrosoft.com/WORK/PERSONAL/AL2TECH/Utilities/KiCad/KiCad_Libraries/3dpackages/Connector_Pin_Header.3dshapes/Pin_Header_Straight_2x05_Pitch1.27mm_SMD.wrl"
+  (model ${KISYS3DMOD}/Connector_Pin_Header.3dshapes/Pin_Header_Straight_2x05_Pitch1.27mm_SMD.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

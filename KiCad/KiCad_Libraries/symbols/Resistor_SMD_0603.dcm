@@ -56,4 +56,8 @@ $CMP 10
 D 10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
 $ENDCMP
 #
+$CMP 270k
+D 270 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) 
+$ENDCMP
+#
 #End Doc Library

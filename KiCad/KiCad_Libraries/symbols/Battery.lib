@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Lithium_Battery_1000mAh_50x35x5.3
+#
+DEF Lithium_Battery_1000mAh_50x35x5.3 BAT 0 10 N Y 1 F N
+F0 "BAT" -400 650 50 H V L CNN
+F1 "Lithium_Battery_1000mAh_50x35x5.3" -650 -700 50 H V L CNN
+F2 "Battery:Lithium_battery_50x30x5.3" 25 200 60 H I L CNN
+F3 "" 25 300 60 H I L CNN
+F4 "1000mAh, 3.7V" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "HEXUNBABA" 25 600 60 H I L CNN "Manufacturer"
+F7 "523450" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Aliexpress" 25 800 60 H I L CNN "Supplier"
+F9 "NA" 25 900 60 H I L CNN "Supplier PN"
+F10 "NA" 25 1000 60 H I L CNN "Supplier Link"
+F11 "1 cell lithyum battery 1000mAh" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+S -400 600 400 -600 0 1 0 N
+S -250 550 -100 500 0 1 0 N
+S 100 550 250 500 0 1 0 N
+P 3 0 1 0 -400 450 400 450 350 450 N
+ENDDRAW
+ENDDEF
+#
+#End Library

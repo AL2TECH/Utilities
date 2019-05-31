@@ -1,4 +1,4 @@
-(module TerminalBlock_Pheonix_MPT-2.54mm_6pol (layer F.Cu) (tedit 5BC9EFC6)
+(module TerminalBlock_Pheonix_MPT-2.54mm_6pol (layer F.Cu) (tedit 5CEEA56E)
   (descr "6-way 2.54mm pitch terminal block, Phoenix MPT series")
   (fp_text reference REF** (at 6.35 -4.50088) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -37,7 +37,7 @@
   (pad 3 thru_hole oval (at 5.08 0 180) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 10.16 0 180) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 12.7 0 180) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask))
-  (model "../../../../../../Users/andrea.longobardi/OneDrive - maximintegrated.onmicrosoft.com/WORK/PERSONAL/AL2TECH/Utilities/KiCad/KiCad_Libraries/3dpackages/Connector_Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_MPT-2.54mm_6pol.wrl"
+  (model ${KISYS3DMOD}/Connector_Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_MPT-2.54mm_6pol.wrl
     (offset (xyz 6.349999904632568 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

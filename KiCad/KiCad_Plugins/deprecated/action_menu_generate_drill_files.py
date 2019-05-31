@@ -25,7 +25,7 @@ class generate_drill_files( pcbnew.ActionPlugin ):
 
     def Run( self ):
 		pcb = pcbnew.GetBoard()
-		drill_path = os.path.dirname(pcb.GetFileName()) + "/Outputs/Plots/"
+		drill_path = os.path.dirname(pcb.GetFileName()) + "/Outputs/PCB_Manufacturing/Drill/"
 		if not os.path.exists(drill_path):
 			os.makedirs(drill_path)
 			

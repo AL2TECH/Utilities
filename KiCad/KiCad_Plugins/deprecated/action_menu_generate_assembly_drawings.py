@@ -32,7 +32,7 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 			
 		popt = pctl.GetPlotOptions()
 			
-		popt.SetOutputDirectory("Outputs/Assembly/")
+		popt.SetOutputDirectory("Outputs/PCB_Assembly/")
 			
 		# Set some important plot options:
 		popt.SetPlotFrameRef(True)
@@ -59,7 +59,7 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 		pctl.ClosePlot()
 		
 		#generate xy positions TOP files
-		file = open('%s/Outputs/Assembly/components_position_TOP.csv' % pcb_path, 'w')
+		file = open('%s/Outputs/PCB_Assembly/components_position_TOP.csv' % pcb_path, 'w')
 		writer = csv.writer( file, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
 		
 		board_aux_origin = pcb.GetAuxOrigin()
@@ -78,7 +78,7 @@ class generate_assembly_drawings( pcbnew.ActionPlugin ):
 		file.close()
 		
 		#generate xy positions BOTTOM files
-		file = open('%s/Outputs/Assembly/components_position_BOTTOM.csv' % pcb_path, 'w')
+		file = open('%s/Outputs/PCB_Assembly/components_position_BOTTOM.csv' % pcb_path, 'w')
 		writer = csv.writer( file, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL )
 		
 		board_aux_origin = pcb.GetAuxOrigin()

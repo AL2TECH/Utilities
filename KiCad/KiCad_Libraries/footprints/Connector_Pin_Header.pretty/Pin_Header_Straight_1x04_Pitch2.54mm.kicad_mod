@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532)
+(module Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5CEEA52C)
   (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.54mm single row")
   (fp_text reference REF** (at 0 -2.33) (layer F.SilkS)
@@ -29,7 +29,7 @@
   (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model "../../../../../../Users/andrea.longobardi/OneDrive - maximintegrated.onmicrosoft.com/WORK/PERSONAL/AL2TECH/Utilities/KiCad/KiCad_Libraries/3dpackages/Connector_Pin_Header.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl"
+  (model ${KISYS3DMOD}/Connector_Pin_Header.3dshapes/Pin_Header_Straight_1x04_Pitch2.54mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Lithium_Battery_1000mAh_50x35x5.3
+D 1 cell lithyum battery 1000mAh
+$ENDCMP
+#
+#End Doc Library

@@ -6,7 +6,7 @@
 import pcbnew
 import os
 
-fiducial_lib = "C:/github_repo/Utilities/KiCad/KiCad_Libraries/footprints/Fiducials.pretty"
+fiducial_lib = os.getenv("KISYSMOD") + "/Fiducials.pretty"
 
 TOP_FID = ("FID1", "FID2", "FID3")
 BOT_FID = ("FID4", "FID5", "FID6")

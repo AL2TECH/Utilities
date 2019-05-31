@@ -28,6 +28,60 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# LTST-S270KGKT
+#
+DEF LTST-S270KGKT D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LTST-S270KGKT" 0 -100 50 H V C CNN
+F2 "LED_SMD:LED_0603_1608Metric_Side_Mounted" 25 200 60 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf" 25 300 60 H I L CNN
+F4 "20mA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Lite-On Inc" 25 600 60 H I L CNN "Manufacturer"
+F7 "LTST-S270KGKT" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "160-1478-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-S270KGKT/160-1478-1-ND/386892" 25 1000 60 H I L CNN "Supplier Link"
+F11 "Green 571nm LED Indication- Side Mounted - Discrete 2V 0603 (1608 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LTST-S270KRKT
+#
+DEF LTST-S270KRKT D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LTST-S270KRKT" 0 -100 50 H V C CNN
+F2 "LED_SMD:LED_0603_1608Metric_Side_Mounted" 25 200 60 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf" 25 300 60 H I L CNN
+F4 "20mA" 25 400 60 H I L CNN "Rating"
+F5 "NA" 25 500 60 H I L CNN "Tolerance"
+F6 "Lite-On Inc." 25 600 60 H I L CNN "Manufacturer"
+F7 "LTST-S270KRKT" 25 700 60 H I L CNN "Manufacturer PN"
+F8 "Digy-Key" 25 800 60 H I L CNN "Supplier"
+F9 "160-1479-1-ND" 25 900 60 H I L CNN "Supplier PN"
+F10 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-S270KRKT/160-1479-1-ND/386894" 25 1000 60 H I L CNN "Supplier Link"
+F11 "Red 631nm LED Indication - Side Mounted - Discrete 2V 0603 (1608 Metric)" 25 1100 60 H I L CNN "Description"
+F12 "Fitted" 25 1200 60 H I L CNN "Assembly Option"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MLCAWT-A1-0000-000051
 #
 DEF MLCAWT-A1-0000-000051 D 0 40 Y N 1 F N
